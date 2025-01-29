@@ -1,0 +1,693 @@
+:root{
+    --primary-color: #82B440;
+    --secondary-color: #01433A;
+}
+
+@media only screen and (max-width: 1399px) {
+    header .left-block .logo-block {
+        max-width: 215px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li {
+        padding: 10px 10px;
+    }
+
+    .banner-section .left-block ul {
+        gap: 55px;
+    }
+
+    .why-choose--us-section .left-block .img-box {
+        width: 100%;
+    }
+
+    .potential-of-your-finances-section .bottom-section .left-part .top-part{
+        height: 302px;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .left-part .bottom-part{
+        height: 302px;
+        overflow: hidden;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .right-part .top-part{
+        height: 302px;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .right-part .bottom-part{
+        height: 302px;
+    } 
+
+    .article-section .bottom-card-block .article-section-card .content-block p {
+        padding: 0 !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1318px) {
+    header .right-block .bottom-part {
+        width: 95%;
+        padding-top: 12px;
+        padding-left: 30px;
+    }
+
+    header .right-block .bottom-part .nav-block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li {
+        padding: 10px 4px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    header .right-block .bottom-part {
+        width: 95%;
+        padding-top: 12px;
+        padding-left: 35px;
+    }
+
+    header .right-block .bottom-part .nav-block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li {
+        padding: 10px 4px;
+    }
+
+    .about-taxovise-section .bottom-part .left-block h3 {
+        font-size: 21px;
+    }
+
+    .preparation-services-section .bottom-cards-part .card .heading-block h3 {
+        font-size: 22px;
+    }
+
+    .what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box .content .top-block {
+        width: 88%;
+    }
+
+    .potential-of-your-finances-section .bottom-section .left-part .top-part{
+        height: 253px;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .left-part .bottom-part{
+        height: 253px;
+        overflow: hidden;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .right-part .top-part{
+        height: 253px;
+    } 
+    
+    .potential-of-your-finances-section .bottom-section .right-part .bottom-part{
+        height: 253px;
+    } 
+
+    .why-choose--us-section .left-block {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-section .left-block ul {
+        gap: 20px;
+    }
+
+    .banner-section .left-block ul li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1172px) {
+    .preparation-services-section .bottom-cards-part .card .heading-block h3 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    header .right-block .bottom-part {
+        width: 100%;
+    }
+
+    header .right-block .bottom-part .d-flex{
+        justify-content: unset !important;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 1134px) {
+    .taxes-with-confidence-section .right-block {
+        display: none;
+    }
+
+    .taxes-with-confidence-section .left-block {
+        text-align: center;
+    }
+
+    .taxes-with-confidence-section .col-lg-6 {
+        width: 100% !important;
+    }
+
+    .taxes-with-confidence-section::after {
+        display: none;
+    }
+
+    .taxes-with-confidence-section .left-block p {
+        width: 100%;
+    }
+
+    .financial-consulting-section {
+        height: 315px;
+    }
+
+    .financial-consulting-section img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 1092px) {
+    header .right-block .bottom-part .nav-block .stellarnav li a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    header .right-block .top-part ul li a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    header .left-block {
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header .stellarnav ul{
+        position: absolute !important;
+        width: 100%;
+        /* height: 100%; */
+        left: 0;
+        background-color: #000;
+    }
+
+    .stellarnav.mobile.dark ul ul:nth-child(2) {
+        background: rgb(0 0 0);
+    }
+
+    .stellarnav.mobile.dark ul {
+        background-color: transparent;
+    }
+
+    .stellarnav.mobile ul ul {
+        position: relative !important;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav {
+        background: var(--primary-color);
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li a {
+        color: #ffffff;
+        padding-bottom: 10px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav ul li ul{
+        margin-top: 10px;
+        background-color: var(--primary-color);
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li {
+         background-color: var(--primary-color);
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav li.has-sub > a:after {
+        display: none;
+    }
+
+    header .right-block .bottom-part .nav-block .btn-block a {
+        padding: 13px 15px;
+    }
+
+    header .right-block .top-part {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .potential-of-your-finances-section .bottom-section .bottom-part .bottom-box .content {
+        bottom: 38%;
+    }
+
+    header .right-block .bottom-part {
+        padding-right: 40px;
+    }
+
+    header .right-block .bottom-part .d-flex {
+        justify-content: flex-end !important;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav {
+        order: 2;
+    }
+
+    .banner-section .left-block ul {
+        gap: 30px;
+    }
+
+    .about-taxovise-section .top-part .right-block {
+        text-align: center;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block {
+        text-align: left;
+    }
+
+    .about-taxovise-section .bottom-part .left-block {
+        max-width: inherit;
+        text-align: center;
+    }
+
+    .about-taxovise-section .bottom-part .right-block .col-lg-2 {
+        width: inherit;
+    }
+
+    .what-they-say-about-us-section .right-block {
+        padding-top: 0;
+    }
+
+    .what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box .content .top-block p {
+        font-size: 13px;
+    }
+
+    .financial-consulting-section {
+        height: 325px;
+    }
+
+    .banner-section .left-block ul {
+        flex-wrap: wrap;
+        gap: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner-section .left-block ul li:nth-child(1) {
+        width: 50%;
+    }
+
+    .banner-section .left-block ul li:nth-child(2) {
+        width: 50%;
+    }
+
+    .banner-section .left-block ul li:nth-child(3) {
+        width: max-content;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-section .left-block ul {
+        flex-wrap: inherit;
+        gap: 30px;
+        text-align: center;
+        justify-content: inherit;
+    }
+
+    .banner-section .left-block ul li:nth-child(1) {
+        width: inherit;
+    }
+
+    .banner-section .left-block ul li:nth-child(2) {
+        width: inherit;
+    }
+
+    .banner-section .left-block ul li:nth-child(3) {
+        width: inherit;
+        text-align: inherit;
+        margin: inherit;
+        padding-top: 0;
+    }
+
+    .about-taxovise-section .top-part::after {
+        width: 100%;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block .box .content {
+        max-width: 170px;
+    }
+
+    .about-taxovise-section .top-part .right-block {
+        padding-left: 0;
+    }
+
+    .about-taxovise-section .top-part .right-block h3 {
+        max-width: inherit;
+    }
+
+    .about-taxovise-section .top-part .right-block p {
+        max-width: inherit;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block {
+        justify-content: center;
+    }
+
+    .taxes-with-confidence-section .left-block {
+        width: 100%;
+    }
+
+    .preparation-services-section .top-part {
+        max-width: inherit;
+    }
+
+    .preparation-services-section .top-part {
+        max-width: inherit;
+    }
+
+    .tax-preparation-section .content {
+        max-width: inherit;
+    }
+
+    .why-choose--us-section .right-block .top-part h3 {
+        max-width: inherit;
+    }
+
+    .why-choose--us-section .right-block .top-part {
+        text-align: center;
+    }
+
+    .why-choose--us-section .right-block .bottom-part .icon-content-block {
+        justify-content: center;
+    }
+
+    .potential-of-your-finances-section .top-section .left-block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .potential-of-your-finances-section .top-section .right-block {
+        text-align: center;
+    }
+
+    .potential-of-your-finances-section .bottom-section .right-part .bottom-part {
+        height: 100%;
+    }
+
+    .potential-of-your-finances-section .bottom-section .right-part .top-part {
+        height: 100%;
+    }
+
+    .potential-of-your-finances-section .bottom-section .left-part .bottom-part {
+        height: auto;
+    }
+
+    .potential-of-your-finances-section .bottom-section .bottom-part .bottom-box:nth-child(1){
+        height: 300px;
+    }
+
+    .what-they-say-about-us-section .left-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .logo-block .img-block {
+        max-width: 170px;
+    }
+
+    footer .copy-right-block {
+        text-align: center;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header .left-block {
+        width: max-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header .right-block {
+        background-color: transparent;
+        width: 100%;
+    }
+
+    header .right-block .top-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .left-block .logo-block {
+        max-width: 180px;
+    }
+
+    header .left-block {
+        padding: 12px 0;
+    }
+
+    header .right-block .bottom-part {
+        padding-right: 12px;
+    }
+
+    header .right-block .top-part ul li a i {
+        font-size: 17px;
+    }
+
+    .preparation-services-section {
+        padding-bottom: 75px;
+    }
+
+    .working-process-section {
+        padding-bottom: 75px;
+    }
+
+    .article-section {
+        padding-bottom: 75px;
+    }
+
+    footer .copy-right-block {
+        margin-top: 35px;
+    }
+
+    header .right-block .bottom-part .d-flex {
+        justify-content: space-between !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .financial-consulting-section {
+        height: 355px;
+    }
+
+    .why-choose--us-section {
+        padding-bottom: 75px;
+    }
+}
+
+@media only screen and (max-width: 561px) {
+    header .right-block .bottom-part {
+        padding-left: 12px;
+    }
+
+    header .right-block .bottom-part .nav-block .btn-block a {
+        font-size: 15px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav a{
+        font-size: 15px;
+        padding: 14px 15px;
+    }
+
+    .stellarnav .menu-toggle span.bars span {
+        margin: 0 0 2px;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    header .right-block .top-part ul li a {
+        font-size: 0;
+    }
+}
+
+@media only screen and (max-width: 502px){
+    .tax-preparation-section {
+        height: 600px;
+    }
+
+    .tax-preparation-section .content {
+        width: 94%;
+    }
+} 
+
+@media only screen and (max-width: 440px) {
+    header .right-block .bottom-part .nav-block .stellarnav a {
+        padding: 14px 12px;
+    }
+
+    header .right-block .bottom-part .nav-block .btn-block a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    header .right-block .bottom-part .nav-block .stellarnav a {
+        padding: 11px 12px;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav a {
+        padding: 13px 12px;
+    }
+
+    header .right-block .bottom-part .social-icon-block{
+        display: none;
+    }
+
+    header .right-block .top-part .social-icon-block {
+        display: block;
+    }
+
+    header .right-block .top-part ul li:nth-child(3){
+       display: none;
+    }
+
+    header .right-block .top-part {
+        justify-content: space-between;
+        padding-inline: 20px;
+    }
+
+    header .right-block .top-part ul li a i {
+        font-size: 21px;
+    }
+
+    header .right-block .top-part .social-icon-block ul li a {
+        border: 1px solid #fff;
+    }
+
+    header .right-block .top-part .social-icon-block ul li a .bx {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    header .right-block .bottom-part .nav-block {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .right-block .bottom-part .nav-block .stellarnav a {
+        font-size: 0;
+    }
+
+    header .stellarnav .menu-toggle span.bars {
+        margin-right: 0;
+    }
+
+    header .right-block .bottom-part .nav-block .btn-block a {
+        padding: 9px 15px;
+    }
+
+    .banner-section .left-block .get-started-btn {
+        margin: 0 auto;
+    }
+
+    .banner-section .left-block ul {
+        gap: 16px;
+    }
+
+    .banner-section .left-block ul li .bi {
+        font-size: 16px;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block {
+        justify-content: space-between;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-taxovise-section .top-part .right-block .icon-cotent-block .box .content {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 401px) {
+    .banner-section .left-block ul {
+        flex-wrap: wrap;
+    }
+
+    .why-choose--us-section .left-block .img-box {
+        height: 300px;
+    }
+
+    .why-choose--us-section .left-block .img-box img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .counter-section {
+        padding-bottom: 0;
+    }
+
+    .why-choose--us-section .right-block .bottom-part .icon-content-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .why-choose--us-section .right-block .bottom-part .icon {
+        width: 20%;
+    }
+
+    .why-choose--us-section .right-block .bottom-part .content {
+        width: 100%;
+    }
+
+    .financial-consulting-section .content {
+        width: 85%;
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99999;
+        text-align: center;
+    }
+
+    .article-section .heading-block {
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .article-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

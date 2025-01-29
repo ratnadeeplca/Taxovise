@@ -1,0 +1,3303 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --primary-font: "Plus Jakarta Sans", sans-serif; 
+    --secondary-font: "Nunito", sans-serif;
+    --primary-color: #82B440;
+    --secondary-color: #01433A;
+}
+
+/* @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+} */
+
+
+body{
+    font-family: inherit;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    border: none !important;
+    background-color: transparent !important;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul,
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ============================HOME PAGE START=============================== */
+
+/* Header Section Start */
+
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+header .left-block{
+    background-color: transparent;
+    padding: 20px 55px;
+    width: 30%;
+}
+
+header .left-block .logo-block{
+    max-width: 250px;
+}
+
+header .right-block{
+    background-color: transparent;
+    width: 85%;
+}
+
+header .right-block .top-part{
+    background-color: #01433A;
+    padding: 15px 0;
+    padding-right: 131px;
+    display: flex;
+    justify-content: flex-end;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+}
+
+header .right-block .top-part ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .right-block .top-part ul li{
+  font-family: var(--secondary-font);
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+header .right-block .top-part ul li a{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header .right-block .top-part .social-icon-block{
+    display: none;
+}
+
+header .right-block .top-part .social-icon-block ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .right-block .top-part .social-icon-block ul li a{
+    --w-h: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--w-h);
+    height: var(--w-h);
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+}
+
+header .right-block .top-part .social-icon-block ul li a .bx{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+header .right-block .bottom-part{
+    width: 89%;
+    padding-top: 13px;
+    padding-left: 56px;
+}
+
+header .right-block .bottom-part .social-icon-block ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .right-block .bottom-part .social-icon-block ul li a{
+    --w-h: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--w-h);
+    height: var(--w-h);
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+}
+
+header .right-block .bottom-part .social-icon-block ul li a .bx{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+header .right-block .bottom-part .nav-block{
+    display: flex;
+    align-items: center;
+}
+
+header .right-block .bottom-part .nav-block .stellarnav{
+    width: max-content;
+    background: transparent;
+    /* position: relative; */
+
+}
+
+header .right-block .bottom-part .nav-block .stellarnav a{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+
+header .right-block .bottom-part .nav-block .stellarnav li{
+    padding: 10px 16px;
+}
+
+header .right-block .bottom-part .nav-block .stellarnav li a {
+    font-family: var(--secondary-font);
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+header .right-block .bottom-part .nav-block .stellarnav li.has-sub > a::after {
+    content: '';
+    margin-left: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000000;
+    display: inline-block;
+}
+
+header .right-block .bottom-part .nav-block .stellarnav ul li ul{
+    margin-top: 10px;
+    background-color: var(--primary-color);
+}
+
+header .right-block .bottom-part .nav-block .stellarnav ul li ul li a{
+    color: #fff !important;
+}
+
+header .right-block .bottom-part .nav-block .btn-block a{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+}
+
+/* Header Section End */
+
+
+
+/* Banner Section Start */
+
+.banner-section{
+    background-color: red;
+    background-image: linear-gradient(180deg, rgba(48,155,155,77%) 100%, rgba(0,0,0,0%) 0% ),url('../images/banner-bgc-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.banner-section .left-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+}
+
+.banner-section .left-block span{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;  
+}
+
+.banner-section .left-block h1{
+    font-family: var(--primary-font);
+    font-size: clamp(2.1875rem, 1.8866rem + 1.6049vw, 3.8125rem);;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    margin: 0;  
+}
+
+.banner-section .left-block p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    max-width: 468px;
+    margin: 0;  
+}
+
+.banner-section .left-block .get-started-btn{
+    width: max-content;
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    background-color: #9B447C;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.banner-section .left-block ul{
+    padding-top: 58px;
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    position: relative;
+}
+
+.banner-section .left-block ul::after{
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    background-color: #d3d3d3;
+    top: 31px;
+    left: 0;
+}
+
+.banner-section .left-block ul li{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.banner-section .left-block ul li .bi{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.banner-section .right-block{
+    display: flex;
+    justify-content: center;
+}
+
+/* Banner Section End */
+
+
+
+
+/* About Taxovise Section Start */
+
+.about-taxovise-section{
+    padding: 70px 0;
+    background-color: transparent;
+}
+
+.about-taxovise-section .top-part{
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.about-taxovise-section .top-part::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 90%;
+    height: 1px;
+    background-color: #c7c7c7;
+}
+
+.about-taxovise-section .top-part .left-block{
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-taxovise-section .top-part .left-block .img-block{
+    position: relative;
+}
+
+.about-taxovise-section .top-part .left-block .img-block img{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.about-taxovise-section .top-part .left-block .img-block .content{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    max-width: 358px;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.about-taxovise-section .top-part .left-block .img-block .content p{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-left: 40px;
+    margin: 0;
+    position: relative;
+}
+
+.about-taxovise-section .top-part .left-block .img-block .content p::after{
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 8px;
+    background-color: #9B447C;
+    width: 60px;
+    height: 5px;
+    transform: translate(-50%, -50%);
+    rotate: -90deg;
+}
+
+.about-taxovise-section .top-part .right-block{
+    background-color: transparent;
+    padding-left: 40px;
+}
+
+.about-taxovise-section .top-part .right-block span{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.about-taxovise-section .top-part .right-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.4468rem + 0.6173vw, 2.1875rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: capitalize;
+    max-width: 546px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.about-taxovise-section .top-part .right-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+    text-transform: capitalize;
+    max-width: 571px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.about-taxovise-section .top-part .right-block .icon-cotent-block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.about-taxovise-section .top-part .right-block .icon-cotent-block .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.about-taxovise-section .top-part .right-block .icon-cotent-block .box .content{
+    max-width: 220px;
+}
+
+.about-taxovise-section .top-part .right-block .icon-cotent-block .box .content h5{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #000;    
+    line-height: 1.3;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.about-taxovise-section .top-part .right-block .icon-cotent-block .box .content p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;    
+    line-height: 1.4;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.about-taxovise-section .top-part .right-block .discover-more-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.about-taxovise-section .bottom-part{
+    padding-top: 20px;
+}
+
+.about-taxovise-section .bottom-part .left-block{
+    max-width: 270px;
+}
+
+.about-taxovise-section .bottom-part .left-block h3{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.about-taxovise-section .bottom-part .right-block{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-taxovise-section .bottom-part .right-block .col-lg-2 {
+    width: 19.666667%;
+}
+
+/* About Taxovise Section End */
+
+
+
+/* Taxes With Confidence Section Start */
+
+.taxes-with-confidence-section{
+    height: 414px;
+    background-image: linear-gradient(180deg, rgba(30, 65, 63, 82%) 100%, rgba(0, 0, 0, 0%) 0%),url('../images/taxes-with-section-bgc-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.taxes-with-confidence-section::after{
+    content: '';
+    position: absolute;
+    width: 838px;
+    height: 401px;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    background-image: url(../images/taxes-with-section-left-img.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    clip-path: polygon(38% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.taxes-with-confidence-section .left-block{
+    width: 95%;
+}
+
+.taxes-with-confidence-section .left-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.taxes-with-confidence-section .left-block p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    text-transform: capitalize;
+    width: 77%;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.taxes-with-confidence-section .left-block .contact-now-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.taxes-with-confidence-section .right-block{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999999;
+}
+
+.fancybox__container {
+    z-index: 9999999999;
+}
+
+.taxes-with-confidence-section .right-block .watch-btn .play-icon{
+    width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #637074;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	animation: move 3s ease-in-out infinite;
+    border: 6px solid #fff;
+}
+
+.taxes-with-confidence-section .right-block .watch-btn .play-icon .bx{
+    color: #ffffff;
+	font-size: 45px;
+	margin-left: 5px;
+}
+
+@keyframes move{
+	/* from{ transform: scale(1); }
+	to{ transform: scale(2) rotateZ(360deg); } */
+	
+	0%{   
+	  box-shadow: 0 0 0 0 white, 
+	  0 0 0 0 black,
+	  0 0 0 0 white;
+	}
+  
+	100%{ 
+	  /* transform: scale(1.05); */
+	  box-shadow: 0 0 0 15px transparent, 
+	  0 0 0 20px transparent,
+	  0 0 0 25px transparent;
+	}
+	
+  }
+
+/* Taxes With Confidence Section Start */
+
+
+
+
+/* preparation Services Section Start */
+
+.preparation-services-section{
+    padding-top: 50px;
+    padding-bottom: 95px;
+}
+
+.preparation-services-section .top-part{
+    max-width: 638PX;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.preparation-services-section .top-part span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.preparation-services-section .top-part h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.preparation-services-section .bottom-cards-part{
+    background-color: transparent;
+}
+
+.preparation-services-section .bottom-cards-part .card{
+   background-color: #fff;
+   border-radius: 0;
+   border: none;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.preparation-services-section .bottom-cards-part .card .heading-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.preparation-services-section .bottom-cards-part .card .heading-block h3{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.preparation-services-section .bottom-cards-part .card .heading-block .icon{
+    background-color: #82B440;
+    width: 71px;
+    height: 49px;
+    margin-top: -1px;
+    margin-right: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 19% 100%);
+}
+
+.preparation-services-section .bottom-cards-part .card .heading-block .icon .bi{
+    color: #fff;
+    font-size: 25px;
+}
+
+.preparation-services-section .bottom-cards-part .card .content-block{
+    width: 88%;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.preparation-services-section .bottom-cards-part .card .content-block p{
+   font-family: var(--primary-font);
+   font-size: 15px;
+   color: #000;
+   font-weight: 400;
+   line-height: 1.4;
+   padding-bottom: 18px;
+   margin: 0;
+}
+
+.preparation-services-section .bottom-cards-part .card .content-block ul li{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 8px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.preparation-services-section .bottom-cards-part .card .content-block ul li .bi{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.preparation-services-section .bottom-cards-part .card .btn-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+}
+
+.preparation-services-section .bottom-cards-part .card .btn-block .learn-more-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    padding: 16px 0;
+    margin: 0;
+    transition: 0.3s ease;
+}
+
+.preparation-services-section .bottom-cards-part .card .btn-block .learn-more-btn:hover{
+    background-color: #9B447C;
+}
+
+/* preparation Services Section End */
+
+
+
+/* Working Process Section Start */
+
+.working-process-section{
+    padding-bottom: 100px;
+}
+
+.working-process-section .top-part{
+    text-align: center;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.working-process-section .top-part span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.working-process-section .top-part h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.working-process-section .top-part p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.working-process-section .bottom-part .card{
+    border-radius: 0;
+    border: 1px dashed #bbb;
+    background-color: transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s ease;
+}
+
+.working-process-section .bottom-part .card:hover{
+    border: 1px dashed #6c9832;
+}
+
+.working-process-section .bottom-part .card .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C3F3A;
+    transition: 0.3s ease;
+}
+
+.working-process-section .bottom-part .card:hover .top{
+    background-color: var(--primary-color);
+}
+
+.working-process-section .bottom-part .card .top span{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.3;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.working-process-section .bottom-part .card .content{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.working-process-section .bottom-part .card .content h5{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.working-process-section .bottom-part .card .content p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+/* Working Process Section End */
+
+
+
+
+/* Tax Preparation Sction Start */
+
+ .tax-preparation-section{
+    height: 500px;
+    position: relative;
+    /* background-image: url('../images/tax-preparation-sction-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+ .tax-preparation-section img{
+    height: 500px;
+    object-fit: cover;  
+}
+
+.tax-preparation-section .content{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 637px;
+}
+
+.tax-preparation-section .content span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.tax-preparation-section .content h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.tax-preparation-section .content p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.tax-preparation-section .content .btn-block{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tax-preparation-section .content .btn-block .get-started-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.tax-preparation-section .content .btn-block a:nth-child(1){
+    background-color: #9B447C;
+}
+
+/* Tax Preparation Sction End */
+
+
+
+/* Counter Section Start */
+
+.counter-section{
+    padding-bottom: 30px;
+    background-color: transparent;
+    position: relative;
+    top: -65px;
+}
+
+.counter-section .content-wrapper{
+    padding: 20px 0 25px 0;
+
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 5px solid #9B447C;
+}
+
+.counter-section .content-wrapper .counter-box{
+    background-color: transparent;
+    text-align: center;
+    border-right: 1px solid #a1a1a1;
+}
+
+.counter-section .content-wrapper .counter-box .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter-section .content-wrapper .counter-box .counter .count-style{
+    font-size: 45px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.counter-section .content-wrapper .counter-box .counter .plus{
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.counter-section .content-wrapper .counter-box h5{
+    font-family: var(--primary-font);
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 5px;
+    margin: 0;
+}
+
+/* Counter Section End */
+
+
+/* Why Choose Us Section Start */
+
+.why-choose--us-section{
+    padding-bottom: 100px;
+    background-color: transparent;
+}
+
+.why-choose--us-section .left-block{
+    background-color: transparent;
+}
+
+.why-choose--us-section .left-block .img-box{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.why-choose--us-section .left-block .img-box .content{
+    background-color: #0000009f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: -1px;
+    padding: 70px 30px 40px 30px;
+    clip-path: polygon(0 0, 100% 27%, 100% 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.why-choose--us-section .left-block .img-box .content p{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.why-choose--us-section .left-block .img-box .content p::after{
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 31%;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+
+.why-choose--us-section .left-block .pt{
+    padding-top: 35px;
+}
+
+.why-choose--us-section .right-block{
+    background-color: transparent;
+    padding-left: 15px;
+}
+
+.why-choose--us-section .right-block .top-part{
+    padding-bottom: 50px;
+}
+
+.why-choose--us-section .right-block .top-part span{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.why-choose--us-section .right-block .top-part h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: capitalize;
+    max-width: 546px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.why-choose--us-section .right-block .top-part p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+    max-width: 571px;
+    padding: 0;
+    margin: 0;
+}
+
+.why-choose--us-section .right-block .bottom-part .icon-content-block{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.why-choose--us-section .right-block .bottom-part .icon{
+    /* width: 15%; */
+}
+
+.why-choose--us-section .right-block .bottom-part .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.why-choose--us-section .right-block .bottom-part .content{
+    width: 71%;
+}
+
+.why-choose--us-section .right-block .bottom-part .content h5{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.why-choose--us-section .right-block .bottom-part .content p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+/* Why Choose Us Section Start */
+
+
+/* Potential Of Your Finances Section Start */
+.potential-of-your-finances-section{
+    background-color: transparent;
+    padding-bottom: 65px;
+}
+
+.potential-of-your-finances-section .top-section{
+    padding-bottom: 40px;
+} 
+
+.potential-of-your-finances-section .top-section .left-block{
+    width: 92%;
+} 
+
+.potential-of-your-finances-section .top-section .left-block span{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.potential-of-your-finances-section .top-section .left-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.potential-of-your-finances-section .top-section .right-block{
+    height: 100%;
+}
+
+.potential-of-your-finances-section .top-section .right-block p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.potential-of-your-finances-section .top-section .right-block p::after{
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 72px;
+    height: 4px;
+    background-color: #9B447C;
+}
+
+.potential-of-your-finances-section .bottom-section .row{
+    margin: 0;
+    --bs-gutter-x: 0;
+}
+
+.potential-of-your-finances-section .bottom-section .top-part{
+    position: relative;
+} 
+
+.potential-of-your-finances-section .bottom-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.potential-of-your-finances-section .bottom-section .top-part .content{
+    max-width: 455px;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+
+.potential-of-your-finances-section .bottom-section .top-part .content span{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.potential-of-your-finances-section .bottom-section .top-part .content h4{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.potential-of-your-finances-section .bottom-section .bottom-part .bottom-box{
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+.potential-of-your-finances-section .bottom-section .bottom-part .bottom-box .content{
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+
+.potential-of-your-finances-section .bottom-section .bottom-part .bottom-box .content span{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.potential-of-your-finances-section .bottom-section .bottom-part .bottom-box .content h4{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.potential-of-your-finances-section .bottom-section .bottom-part .bottom-box .content .after-border::after{
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 72px;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+
+.potential-of-your-finances-section .bottom-section .left-part .top-part{
+    height: 350px;
+} 
+
+.potential-of-your-finances-section .bottom-section .left-part .bottom-part{
+    height: 350px;
+    overflow: hidden;
+} 
+
+.potential-of-your-finances-section .bottom-section .right-part .top-part{
+    height: 350px;
+} 
+
+.potential-of-your-finances-section .bottom-section .right-part .bottom-part{
+    height: 350px;
+} 
+
+/* Potential Of Your Finances Section End */
+
+
+
+/* What They Say About Us Section Start */
+
+.what-they-say-about-us-section{
+    background-color: transparent;
+}
+
+.what-they-say-about-us-section .left-block{
+    position: relative;
+    background-color: transparent;
+}
+
+.what-they-say-about-us-section .left-block .icon-box{
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    border: 5px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-they-say-about-us-section .left-block .icon-box .bi{
+    color: #fff;
+    font-size: 30px;
+}
+
+.what-they-say-about-us-section .right-block{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: transparent;
+    padding-top: 30px;
+} 
+
+.what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider{
+    background-color: #EFF5F4;
+    padding: 20px ;
+   
+}
+
+.what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box{
+    padding: 15px 25px;
+    border: 2px dashed #a8a8a8;
+}
+
+.what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box .content .top-block{
+    padding-bottom: 35px;
+    width: 73%;
+}
+
+.what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box .content .top-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.what-they-say-about-us-section .right-block .content-wrapper .what-they-say-about-slider .box .content .top-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.what-they-say-about-slider .box .content .bottom-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-they-say-about-slider .box .content .bottom-block .left-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* What They Say About Us Section End */
+
+
+
+/* Financial Consulting Section start */
+
+.financial-consulting-section{
+   position: relative;
+}
+
+.financial-consulting-section::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+.financial-consulting-section .content{
+    max-width: 500px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(0, -50%);
+    z-index: 99999;
+}
+
+.financial-consulting-section .content span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.financial-consulting-section .content h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.financial-consulting-section .content p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.financial-consulting-section .content .contact-us-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #398177;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+/* Financial Consulting Section End */
+
+
+
+/* Article Section Start */
+
+.article-section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.article-section .heading-block{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.article-section .heading-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.article-section .heading-block .all-article-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 6px 16px;
+    margin: 0;
+}
+
+.article-section .bottom-card-block .article-section-card{
+    background-color: transparent;
+}
+
+.article-section .bottom-card-block .article-section-card .img-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.article-section .bottom-card-block .article-section-card .img-block img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-section .bottom-card-block .article-section-card .img-block .img-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #00000081;
+    padding: 7px 20px;
+    display: flex;  
+    align-items: center;
+    gap: 10px;
+}
+
+.article-section .bottom-card-block .article-section-card .img-block .img-content .bx{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.article-section .bottom-card-block .article-section-card .img-block .img-content span{
+    font-family: var(--primary-font);
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.article-section .bottom-card-block .article-section-card .content-block {
+    padding-top: 12px;
+    width: 95%;
+}
+
+.article-section .bottom-card-block .article-section-card .content-block h3{ 
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+.article-section .bottom-card-block .article-section-card .content-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #898888;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+/* Article Section Start */
+
+
+
+/* Footer Start */
+
+footer{
+    background-color: #0B1816;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+footer .content-wrapper{
+    background-color: transparent;
+}
+
+footer .logo-block {
+    width: 85%;
+}
+
+footer .logo-block .img-block{
+    max-width: 250px;
+    padding-bottom: 25px;
+}
+
+footer .logo-block p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 17px;
+    margin: 0;
+}
+
+footer .logo-block ul li{
+    padding-bottom: 15px !important  ;
+}
+
+footer .logo-block ul li a{
+  display: flex;
+  align-items: center;
+  gap: 15px;  
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 0;
+  margin: 0;
+}
+
+footer .logo-block ul li a .bi{
+    font-size: 18px;
+    color: #fff;
+}
+
+footer .content-wrapper h5{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+footer .content-wrapper ul li{
+    padding-bottom: 20px;
+}
+
+footer .content-wrapper ul li a{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+footer .head-office-block{
+    width: 85%;
+}
+
+footer .head-office-block a{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+footer .head-office-block span{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+footer .copy-right-block{
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 2px solid #9a9a9a;
+}
+
+footer .copy-right-block span{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+}
+
+footer .copy-right-block .border-right{
+    padding-right: 10px;
+    border-right: 2px solid #9a9a9a;
+}
+
+/* Footer End */
+
+/* ============================HOME PAGE END=============================== */
+
+
+
+/* ============================CONTACT PAGE START=============================== */
+
+/* Contact PAGE Banner Section Start */
+.contact-page-banner {
+    height: 473px;
+    position: relative;
+    background-image: linear-gradient(180deg, rgb(25 71 64 / 82%) 100%, rgba(0, 0, 0, 0%) 0%), url(../images/contact-page-banner-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-page-banner::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: 297px;
+    height: 35px;
+    background-color: #ffffff;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.contact-page-banner .content{
+    position: relative;
+    z-index: 9999;
+}
+
+.contact-page-banner .content h1{
+   font-family: var(--primary-font);
+   font-size: 49px;
+   color: #fff;
+   font-weight: 600;
+   line-height: 1.3;
+   text-transform: capitalize;
+   padding-bottom: 20px;
+   margin: 0;
+}
+
+.contact-page-banner .content ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact-page-banner .content ul li a{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-page-banner .content ul li .icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-page-banner .content ul li .icon .bi{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+/* Contact PAGE Banner Section End */
+
+
+/* Contact PAGE Form Section Start */
+
+.contact-page-form-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-page-form-section .left-block{
+    background-color: transparent;
+    border-bottom: 4px solid var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-page-form-section .left-block .top-part{
+    position: relative;
+}
+
+.contact-page-form-section .left-block .top-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-page-form-section .left-block .top-part::after {
+    content: '';
+    position: absolute;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255, 1) 100%);
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-page-form-section .left-block .bottom-part{
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px 50px 40px;
+}
+
+.contact-page-form-section .left-block .bottom-part .box{
+    width: 73%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.contact-page-form-section .left-block .bottom-part .box::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 0.5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+}
+
+.contact-page-form-section .left-block .bottom-part .box h5{
+    font-family: var(--primary-font);
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+.contact-page-form-section .left-block .bottom-part .box a{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.contact-page-form-section .left-block .bottom-part .address-box a{
+    text-transform: capitalize;
+}
+
+.contact-page-form-section .right-block{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+    padding-left: 70px;
+}
+
+.contact-page-form-section .right-block .top-part{
+    padding-bottom: 20px;
+}
+
+.contact-page-form-section .right-block .top-part h2{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.contact-page-form-section .right-block .top-part p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.contact-page-form-section .right-block .bottom-part{
+    width: 100%;
+}
+
+.contact-page-form-section .right-block .bottom-part .box{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.contact-page-form-section .right-block .bottom-part label{
+    display: block;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-page-form-section .right-block .bottom-part input,textarea{
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #838383;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.contact-page-form-section .right-block .bottom-part textarea{
+    resize: none;
+}
+
+.contact-page-form-section .right-block .bottom-part .submit-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    border: none;
+} 
+
+/* Contact PAGE Form Section Start */
+
+
+/* Contact PAGE Map Section Start */
+
+.contact-page-map-section{
+    height: 450px;
+}
+
+.contact-page-map-section iframe{
+    width: 100%;
+}
+
+/* Contact PAGE Map Section End */
+
+/* ============================CONCACT PAGE END=============================== */
+
+
+
+
+
+
+/* ============================SERVICES PAGE START=============================== */
+
+/* Services Page Banner Section Start */
+.services-page-banner{
+    margin-bottom: 100px;
+}
+/* Services Page Banner Section End */
+
+
+/* Services Page We Give Comprehensive Section Start */
+.services-page-we-give-comprehensive-section{
+    padding-bottom: 80px;
+}
+
+.services-page-we-give-comprehensive-section .top-part{
+    padding-bottom: 40px;
+}
+
+.services-page-we-give-comprehensive-section .top-part .left-block{
+    width: 85%;
+}
+
+.services-page-we-give-comprehensive-section .top-part .left-block span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .top-part .left-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .top-part .left-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .top-part .right-block{
+    width: 85%;
+}
+
+.services-page-we-give-comprehensive-section .top-part .right-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .top-part .right-block ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .top-part .right-block ul li .bi{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .video-box{
+    position: relative;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .video-box a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+.services-page-we-give-comprehensive-section .bottom-part .video-box .video-icon-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #0000002d;
+    z-index: 999999;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .video-box .video-icon-box .play-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #637074;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    animation: move 3s ease-in-out infinite;
+    border: 6px solid #fff;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .video-box .video-icon-box .play-icon .bx{
+    color: #ffffff;
+    font-size: 45px;
+    margin-left: 5px;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .content-box{
+    width: 95%;
+    padding-top: 20px;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .content-box p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+}
+
+.services-page-we-give-comprehensive-section .bottom-part .content-box p:nth-child(1){
+    padding-bottom: 10px;
+}
+/* Services Page We Give Comprehensive Section Start */
+
+
+/* Financial Consulting Section Start */
+
+/* Financial Consulting Section End */
+
+
+/* Accordion Section Start */
+.accordion-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.accordion-section .left-block{
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.accordion-section .left-block .heading-block{
+    background-color: transparent;
+    padding-bottom: 10px;
+
+}
+
+.accordion-section .left-block .heading-block h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.accordion-section .left-block .heading-block p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-section .left-block .accordion .accordion-item{
+    color: #000;
+    background-color: #fff;
+    border: none;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.accordion-section .left-block .accordion .accordion-item button{
+    position: relative;
+    padding: 10px 10px 20px 0;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.accordion-section .left-block .accordion .accordion-item button::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.8px;
+    background-color: #000;
+}
+
+.accordion-section .left-block .accordion .accordion-button::after {
+   background-image: url('../images/plus-icon-1.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.accordion-section .left-block .accordion .accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus-icon-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.accordion-section .left-block .accordion .accordion-item button:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.accordion-section .right-block{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-section .right-block .img-block{
+    position: relative;
+}
+
+.accordion-section .right-block .content{
+    background-color: #0000009f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 70px 30px 40px 30px;
+    clip-path: polygon(0 0, 100% 27%, 100% 100%, 0% 100%);
+}
+
+.accordion-section .right-block .content h5{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.accordion-section .right-block .content h5::after{
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 16%;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+
+
+/* Accordion Section End */
+
+/* ============================SERVICES PAGE END=============================== */
+
+
+
+
+
+/* ============================404 PAGE START=============================== */
+.error-page-banner{
+    position: relative;
+}
+
+.error-page-banner::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2b4d4acc;
+}
+
+.error-page-banner .content{
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50% , -50%);
+    z-index: 9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    background-color: #2b4d4aaa;
+}
+
+.error-page-banner .content h1{
+    font-family: var(--primary-font);
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+}
+
+.error-page-banner .content h4{
+    font-family: var(--primary-font);
+    font-size: 39px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.error-page-banner .content p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    margin: 0;
+    position: relative;
+}
+
+.error-page-banner .content p::after{
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    width: 27%;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    background-color: var(--primary-color);
+}
+/* ============================404 PAGE END=============================== */
+
+
+
+
+/* ============================SINGLE POST PAGE Start=============================== */
+
+
+/* Single Post Page Banner Section Start */
+.single-post-page-banner .content{
+    width: 70%;
+}
+
+.single-post-page-banner .content span{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    border-left: 5px solid var(--primary-color);
+}
+
+.single-post-page-banner .content h1{
+    padding-top: 20px;
+}
+/* Single Post Page Banner Section End */
+
+
+/* New Post Section Start */
+.new-post-section{
+    padding-top: 50px;
+}
+
+.new-post-section .left-block{
+    background-color: transparent;
+    padding-right: 55px;
+}
+
+.new-post-section .left-block p{
+    width: 95%;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #535353;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.new-post-section .left-block .top-part .p-block{
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.new-post-section .left-block .top-part .p-block span{
+    font-family: var(--primary-font);
+    font-size: 50px;
+    color: #535353;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    margin-top: -20px;
+}
+
+.new-post-section .left-block .top-part .img-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.new-post-section .left-block .top-part h4{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    color: #535353;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 30px 0 20px 30px;
+    margin: 0;
+    width: 85%;
+    position: relative;
+}
+
+.new-post-section .left-block .top-part h4::after{
+    content: '';
+    position: absolute;
+    width: 7%;
+    height: 3px;
+    left: -3%;
+    bottom: 44%;
+    background-color: var(--primary-color);
+    rotate: 90deg;
+}
+
+.new-post-section .left-block .bottom-part .top-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6d8d8;
+}
+
+.new-post-section .left-block .bottom-part .top-block .tag-box span{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #535353;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+}
+
+.new-post-section .left-block .bottom-part .top-block .icon-box ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-post-section .left-block .bottom-part .top-block .icon-box ul li a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-post-section .left-block .bottom-part .top-block .icon-box ul li a .bx{
+    font-size: 28px;
+    color: #fff;
+}
+
+.new-post-section .left-block .bottom-part .top-block .icon-box ul li a .bi{
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.new-post-section .left-block .bottom-part .top-block .icon-box ul li a .fs{
+    font-size: 20px !important;
+}
+
+.new-post-section .left-block .bottom-part .bottom-block{
+    padding-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d8d8;
+}
+
+.new-post-section .left-block .bottom-part .bottom-block .img-block img{
+    border-radius: 50px;
+    border: 5px solid #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.new-post-section .left-block .bottom-part .bottom-block .content{
+    width: 80%;
+}
+
+.new-post-section .left-block .bottom-part .bottom-block .content h5{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #535353;
+    font-weight: 500;
+    line-height: 1.3;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.new-post-section .left-block .bottom-part .bottom-block .content p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #535353;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.new-post-section .right-block .heading-box{
+    padding-bottom: 10px;
+}
+
+.new-post-section .right-block .heading-box h1{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    background-color: #eff5f4;
+    padding: 5px 0 5px 15px;
+    margin: 0;
+}
+
+.new-post-section .right-block .new-posts-block{
+    padding-bottom: 5px;
+}
+
+.new-post-section .right-block .new-posts-block .content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.new-post-section .right-block .new-posts-block .content:nth-child(5){
+    border: none;
+}
+
+.new-post-section .right-block .new-posts-block .content .date-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 8px;
+}
+
+.new-post-section .right-block .new-posts-block .content h4{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 85%;
+}
+
+.new-post-section .right-block .categories-block{
+    padding-bottom: 40px;
+}
+
+.new-post-section .right-block .categories-block .heading-box{
+    padding-bottom: 20px;
+}
+
+.new-post-section .right-block .categories-block ul li a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.new-post-section .right-block .categories-block ul li a .bi{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.new-post-section .right-block .newsletter-block{
+    background-color: #eff5f4;
+    padding: 30px 20px;
+}
+
+.new-post-section .right-block .newsletter-block .heading-box h1{
+    background-color: transparent;
+    padding: 0;
+}
+
+.new-post-section .right-block .newsletter-block p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+    width: 95%;
+}
+
+.new-post-section .right-block .newsletter-block form .form-control{    
+    font-family: var(--primary-font);
+    font-size: 17px;
+    color: #171717;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 10px 10px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.new-post-section .right-block .newsletter-block form .btn{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    border-radius: 0;
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin-top: 13px;
+    text-align: center;
+    width: 100%;
+}
+/* New Post Section End */
+
+/* ============================SINGLE POST PAGE END=============================== */
+
+
+
+
+
+/* ============================CASE PAGE START=============================== */
+
+
+.cases-page-potential-of-your-finances-section{
+    padding-top: 100px;
+}
+
+.cases-page-about-taxovise-section{
+    padding: 20px 0;
+}
+
+.cases-page-about-taxovise-section .bottom-part{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #b8b8b8;
+}
+
+.cases-page-accordion-section{
+    padding-bottom: 70px;
+}
+
+/* ============================CASE PAGE END=============================== */
+
+
+
+
+/* ============================ABOUT US PAGE START=============================== */
+
+/* ABOUT US PAGE Banner Section Start */
+.about-us-page-banner{
+    padding-bottom: 100px;
+    background-image: linear-gradient(180deg, rgb(25 71 64 / 82%) 100%, rgba(0, 0, 0, 0%) 0%), url(../images/about-us-page-banner-section-img.png);
+}
+
+.about-us-page-banner::after{
+    width: 0;
+}
+/* ABOUT US PAGE Banner Section End */
+
+
+/* ABOUT US PAGE about-us-page-about-taxovise-section Start */
+.about-us-page-about-taxovise-section .top-part::after{
+    width: 0;
+}
+
+.about-us-page-about-taxovise-section .top-part .right-block{
+    width: 80%;
+}
+
+.about-us-page-about-taxovise-section .top-part .right-block h3{
+    max-width: unset;
+}
+
+.about-us-page-about-taxovise-section .top-part .right-block h5{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.about-us-page-about-taxovise-section .top-part .right-block p{
+    max-width: unset;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part{
+    padding-top: 15px;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .top-content{
+    width: 92%;
+    padding-bottom: 25px;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .top-content h3{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    padding-bottom: 13px;
+    margin: 0;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .top-content p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .icon-cotent-block{
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .icon-cotent-block .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .icon-cotent-block .box .content{
+    max-width: 220px;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .icon-cotent-block .box .content h5{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #000;    
+    line-height: 1.3;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.about-us-page-about-taxovise-section .bottom-part .left-part .icon-cotent-block .box .content p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;    
+    line-height: 1.4;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+/* ABOUT US PAGE about-us-page-about-taxovise-section End */
+
+
+/* About Us Page Meet Our Team Section Start */
+.about-us-page-meet-our-section{
+    padding-bottom: 80px;
+}
+
+.about-us-page-meet-our-section .top-heading-part{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+
+.about-us-page-meet-our-section .top-heading-part span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-page-meet-our-section .top-heading-part h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.3889rem + 0.9259vw, 2.5rem);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.about-us-page-meet-our-section .bottom-card-part{
+    background-color: transparent;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card{
+    border: none;
+    position: relative;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card .content-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7e9f4bc4;
+    clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 15px 10px 15px;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card .content-box .content h3{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card .content-box .content h5{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-page-meet-our-section .bottom-card-part .card .content-box .icon .bi{
+    font-size: 25px;
+    color: #fff;
+}
+/* About Us Page Meet Our Team Section End */
+
+/* ============================ABOUT US PAGE END=============================== */
+
+
+
+
+
+/* ============================BLOG PAGE START=============================== */
+
+/* BLOG PAGE CARD Section Start  */
+.blog-page-card-section{
+    margin: 70px 0;
+}
+
+.blog-page-card-section .card{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+}
+
+.blog-page-card-section .card .top-part{
+    position: relative;
+}
+
+.blog-page-card-section .card .top-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-page-card-section .card .top-part .content-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #9B447C;
+    padding: 7px 20px;
+}
+
+.blog-page-card-section .card .top-part .content-1 span{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-page-card-section .card .top-part .content-2{
+    position: absolute;
+    left: 25px;
+    bottom: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blog-page-card-section .card .top-part .content-2 h3{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    background-color: #0000007e;
+    padding: 4px 12px;
+    margin: 0;
+}
+
+.blog-page-card-section .card .bottom-part{
+    padding: 25px 0 30px 25px;
+}
+
+.blog-page-card-section .card .bottom-part h2{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.blog-page-card-section .card .bottom-part p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.blog-page-card-section .card .bottom-part .read-more-btn{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.3;
+    background-color: var(--primary-color);
+    padding: 8px 15px;
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: max-content;
+}
+
+.blog-page-card-section .card .bottom-part .read-more-btn .bi{
+    font-size: 18px;
+    color: #fff;
+}
+/* BLOG PAGE CARD Section End  */
+/* ============================BLOG PAGE END=============================== */
+
+
+
+
+/* ============================PRICING PLAN PAGE START=============================== */
+
+/* Pricing Plan Page Pricing Plan Section Start */
+.pracing-plan-page-pracing-section{
+   padding-top: 50px;
+   padding-bottom: 80px;
+}
+
+.pracing-plan-page-pracing-section .top-heading-part{
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 52%;
+}
+
+.pracing-plan-page-pracing-section .top-heading-part span{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .top-heading-part h3{
+    font-family: var(--primary-font);
+    font-size: clamp(1.5625rem, 1.4468rem + 0.6173vw, 2.1875rem);
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .top-heading-part p{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part{
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .heading{
+    background-color: var(--secondary-color);
+    padding: 22px 40px 50px 25px;
+    clip-path: polygon(0 0, 100% 0%, 100% 68%, 0% 100%);
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .col-lg-4:nth-child(2) .card .top-part .heading {
+    background-color: var(--primary-color);
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .heading h4{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .heading p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .price{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border-bottom: 1px dashed #999999;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .price span{
+    font-family: var(--primary-font);
+    font-size: 49px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .top-part .price h5{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part{
+    padding: 0px 25px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part span{
+    font-family: var(--primary-font);
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    display: inline-block;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part ul{
+    padding-bottom: 15px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part ul li .bi{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .bottom-part .get-started-btn{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 0;
+    padding: 13px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .logo-block{
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.pracing-plan-page-pracing-section .bottom-card-part .card .logo-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Pricing Plan Page Pricing Plan Section End */
+
+/* ============================PRICING PLAN PAGE END=============================== */
